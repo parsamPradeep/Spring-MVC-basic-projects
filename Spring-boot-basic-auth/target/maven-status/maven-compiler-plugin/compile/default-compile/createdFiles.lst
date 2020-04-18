@@ -1,0 +1,3 @@
+com\demo\basic\auth\SpringBootBasicAuthApplication.class
+com\demo\basic\auth\SpringSecurityConfiguration.class
+com\demo\basic\auth\WebController.class

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.tymleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Spring Development</title>
+</head>
+<body>
+<h1>Books List</h1>
+<table>
+<tr>
+<th>Id</th>
+<th>Title</th>
+<th>Publisher</th>
+</tr>
+<tr th:each="book:${books}">
+	<td th:text="${book.id}">123</td>
+	<td th:text="${book.tittle}">Spring-boot</td>
+	<td th:text="${book.publisher.name}">Swapna book house</td>
+</tr>
+</table>
+
+</body>
+</html>

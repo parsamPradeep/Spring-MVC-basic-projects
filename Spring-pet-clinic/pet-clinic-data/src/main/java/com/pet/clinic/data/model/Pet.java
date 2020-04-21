@@ -1,8 +1,8 @@
-package com.spring.petclinic.model;
+package com.pet.clinic.data.model;
 
 import java.time.LocalDate;
 
-public class Pet {
+public class Pet extends BaseEntity{
 	private PetType petType;
 	private Owner owner;
 	private LocalDate bday;

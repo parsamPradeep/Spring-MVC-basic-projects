@@ -1,9 +1,9 @@
-package com.spring.petclinic.model;
+package com.pet.clinic.data.model;
 
 import javax.persistence.Entity;
 
 @Entity
-public class Person {
+public class Person extends BaseEntity{
 	private String firstName;
 	private String lastName;
 	public String getFirstName() {
